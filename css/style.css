@@ -40,7 +40,25 @@ p{
     white-space: pre;
 }
 #price-plan{
+    background-color: hsl(225, 100%, 98%);
+    width: 80%;
+    margin: auto;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     
-    border: 1px solid black;
-    background-color: aqua;
+}
+#first-element{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+#first-element > h5, p{
+    margin: 0px;
+    padding: 0px;
+}
+#second-element{
+    width: 50%;    
 }
