@@ -52,13 +52,21 @@ p{
 #first-element{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 20px;
     width: 50%;
 }
-#first-element > h5, p{
-    margin: 0px;
-    padding: 0px;
+#plan-content > h4{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+#plan-content > h4,p {
+    padding: 3px;
 }
 #second-element{
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    font-weight: 900;
+    font-size: 13px;
     width: 50%;    
 }
