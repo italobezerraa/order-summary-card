@@ -21,6 +21,10 @@ body{
     background-color: white;
     border-radius: 15px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 h1{
     color: hsl(223, 47%, 23%);
@@ -40,14 +44,12 @@ p{
     white-space: pre;
 }
 #price-plan{
+    margin-top: 20px;
     background-color: hsl(225, 100%, 98%);
     width: 80%;
-    margin: auto;
-    border-radius: 5px;
+    border-radius: 15px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
+    align-items: space-between;    
 }
 #first-element{
     display: flex;
@@ -56,17 +58,7 @@ p{
     padding: 20px;
     width: 50%;
 }
-#plan-content > h4{
-    color: hsl(223, 47%, 23%);
-    font-weight: 900;
-}
-#plan-content > h4,p {
-    padding: 3px;
-}
-#second-element{
-    color: hsl(245, 75%, 52%);
-    text-decoration: underline;
-    font-weight: 900;
-    font-size: 13px;
-    width: 50%;    
+#button-plan{
+    justify-self: end;
+    width: 100%;
 }
