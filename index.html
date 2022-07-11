@@ -9,23 +9,27 @@
     <title>Order Summary Card</title>
 </head>
 <body>
-    <div id="container">
-        <img src="images/illustration-hero.svg" alt="">
-        <h1>Order Summary</h1>
-        <p><span id="content1">You can now listen to millions of songs,</span><span id="content2">
-            audiobooks,and podcasts on any device</span> anywhere you like!
-        </p>
-        <div id="price-plan">
-            <div id="first-element">
-                    <img src="images/icon-music.svg" alt="">
-                    <div id="plan-content">
-                        <p>Annual Plan</p>
-                        <p>$59.99/year</p>
-                    </div>
+    <div class="card">
+        <div class="card-banner">
+            <img src="images/illustration-hero.svg">
+        </div>
+        <div class="card-content">
+            <h1>Order Summary</h1>
+            <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+        </div>
+        <div class="card-plan">
+            <img src="images/icon-music.svg" alt="">
+            <div class="plan-price">
+                <p>Annual Plan</p>
+                <p>$59.99/year</p>
             </div>
-            <button id="button-plan">
-                Change
-            </button>
+            <div class="plan-change">
+                <a href="#">Change</a>
+            </div>
+        </div>
+        <div class="card-order">
+            <a href="#">Proceed to Payment</a>
+            <a href="#">Cancel Order</a>
         </div>
     </div>
 </body>

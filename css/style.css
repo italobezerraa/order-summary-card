@@ -1,64 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
 *{
     margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
     font-family: 'Red Hat Display', sans-serif;
 }
 body{
-    width: 1440px;
-    height: 900px;
-    background-image: url(/images/pattern-background-desktop.svg);
-    background-color: #e0e8ff;
+    min-height: 100vh;
+    background-image: url('/images/pattern-background-desktop.svg');
     background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#container{
+.card{
     width: 450px;
     background-color: white;
     border-radius: 15px;
     overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
 }
-h1{
-    color: hsl(223, 47%, 23%);
-    text-align: center;
-    font-weight: 900;
-    font-size: 28px;
-    padding-top: 20px;
-}
-p{
-    font-size: 16px;
-    text-align: center;
-    padding-top: 20px;
-    color: hsl(224, 23%, 55%);
-}
-#content1::after, #content2::after{
-    content: "\a";
-    white-space: pre;
-}
-#price-plan{
-    margin-top: 20px;
-    background-color: hsl(225, 100%, 98%);
-    width: 80%;
-    border-radius: 15px;
-    display: flex;
-    align-items: space-between;    
-}
-#first-element{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    width: 50%;
-}
-#button-plan{
-    justify-self: end;
-    width: 100%;
-}
+
