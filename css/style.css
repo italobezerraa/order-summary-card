@@ -20,5 +20,62 @@ body{
     background-color: white;
     border-radius: 15px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card-content{
+    width: 80%;
+    text-align: center;
+}
+.card-content > h1 {
+    padding-top: 40px;
+    color: hsl(223, 47%, 23%);
+    font-size: 28px;
+    font-weight: 900;
+}
+.card-content > p {
+    font-size: 16px;
+    padding-top: 20px;
+    line-height: 25px;
+    color: hsl(224, 23%, 55%);
+}
+.card-plan{
+    background-color: hsl(224, 23%, 55%);
+    padding: 20px;
+    margin-top: 20px;
+    width: 80%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: left;
+}
+.card-order{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+}
+.card-order > .proceed{
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 12px;
+    font-size: 15px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    box-shadow: 1px 10px 15px #dddaf7;
+}
+.card-order > .cancel{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
