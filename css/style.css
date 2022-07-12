@@ -17,7 +17,6 @@ body{
     justify-content: center;
 }
 .card{
-    margin: 100px;
     width: 450px;
     background-color: white;
     border-radius: 15px;
@@ -120,4 +119,31 @@ body{
 }
 .cancel:hover{
     color: hsl(223, 47%, 23%);
+}
+
+@media only screen and (max-width: 585px) {
+    .card{
+        min-width: 360px;
+    }
+    .card-content > h1{
+        font-size: 26px;
+    }
+    .card-content > p{
+        font-size: 15px;
+    }
+    .price-content > h4, p {
+        font-size: 14px;
+    }
+    .price-image > img{
+        width: 42px;
+    }
+    .plan-change > a{
+        font-size: 12px;
+    }
+    .proceed{
+        font-size: 13px;
+    }
+    .cancel{
+        font-size: 12px;
+    }
 }
