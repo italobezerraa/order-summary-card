@@ -131,11 +131,14 @@ body{
     .card-content > p{
         font-size: 15px;
     }
-    .price-content > h4, p {
-        font-size: 14px;
+    .price-content > h4{
+        font-size: 13px;
+    }
+    .price-content > p {
+        font-size: 13.5px;
     }
     .price-image > img{
-        width: 42px;
+        width: 41px;
     }
     .plan-change > a{
         font-size: 12px;
