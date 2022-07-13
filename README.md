@@ -1,4 +1,4 @@
-# order-summary-card-challenge
+# order-summary-card
 
 # :flags: About Challenge
 <p>Challenge from <a target="_blank" href="https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj">Frontend Mentor</a></p> 
